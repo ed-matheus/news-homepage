@@ -27,6 +27,61 @@ nav {
     border: 1px solid blue;
 }
 
+/* Left side of the Grid */
+/* .left-container {
+    border: 1px solid green;
+} */
+
+h1 {
+    font-weight: 800;
+}
+
+p {
+    font-size: 0.8rem;
+    color: hsl(236, 13%, 42%);
+}
+
+button {
+    border: none;
+    background-color: hsl(5, 85%, 63%);
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+}
+
+button:hover {
+    background-color: hsl(240, 100%, 5%);
+}
+
+/* Right side of the Grid */
+.right-container {
+    /* border: 1px solid orange; */
+    background-color: hsl(240, 100%, 5%);
+    padding: 22px;
+}
+
+.right-container > h2 {
+    font-weight: 700;
+    color: hsl(35, 77%, 62%);
+}
+
+.right-container > a {
+    text-decoration: none;
+}
+
+.right-container > a > h6 {
+    font-weight: 700;
+}
+
+.right-container > a:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+.right-container > p {
+    color: hsl(233, 8%, 79%);
+    border-bottom: 1px solid hsl(236, 13%, 42%);
+}
+
 /* FOOTER */
 .attribution { 
     font-size: 11px; 
