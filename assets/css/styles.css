@@ -20,6 +20,10 @@ body {
 
 /* MAIN CONTAINER */
 /* Left side of the Grid */
+/* .main-container {
+    border: 1px solid red;
+} */
+
 h1 {
     font-weight: 800;
 }
@@ -72,9 +76,18 @@ button:hover {
 }
 
 /* BOTTOM CONTAINER */
+.other-news {
+    margin-top: 80px;
+}
 .topic-images {
     width: 100px;
-    height: 130px;
+    height: 120px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
 }
 
 .content > h3 {
