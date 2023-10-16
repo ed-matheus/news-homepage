@@ -10,10 +10,6 @@ body {
 }
 
 /* HEADER */
-nav {
-    border: 1px solid red;
-}
-
 .nav-link {
     color: hsl(236, 13%, 42%);
 }
@@ -23,15 +19,7 @@ nav {
 }
 
 /* MAIN CONTAINER */
-.main-container {
-    border: 1px solid blue;
-}
-
 /* Left side of the Grid */
-/* .left-container {
-    border: 1px solid green;
-} */
-
 h1 {
     font-weight: 800;
 }
@@ -70,16 +58,41 @@ button:hover {
 }
 
 .right-container > a > h6 {
+    color: white;
     font-weight: 700;
 }
 
-.right-container > a:hover {
+.right-container > a > h6:hover {
     color: hsl(35, 77%, 62%);
 }
 
 .right-container > p {
     color: hsl(233, 8%, 79%);
     border-bottom: 1px solid hsl(236, 13%, 42%);
+}
+
+/* BOTTOM CONTAINER */
+.topic-images {
+    width: 100px;
+    height: 130px;
+}
+
+.content > h3 {
+    color: hsl(233, 8%, 79%);
+    font-weight: 700;
+}   
+
+.content > h6 {
+    font-weight: 800;
+}  
+
+.content > h6:hover {
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}  
+
+.content > p {
+    color: hsl(236, 13%, 42%);
 }
 
 /* FOOTER */
