@@ -117,3 +117,18 @@ button:hover {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+/* MEDIA QUERIES */
+/* 
+    320px — 480px: dispositivos móveis. 
+    481px — 768px: iPads, tablets. 
+    769px — 1024px: telas pequenas, laptops. 
+    1025px — 1200px: desktops, telas grandes 
+*/
+
+/* iPads, tablets */
+@media (max-width: 768px) {
+    .right-container {
+        margin-top: 60px;
+    }
+}
