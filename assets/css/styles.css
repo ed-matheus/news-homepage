@@ -18,12 +18,16 @@ body {
     color: hsl(5, 85%, 63%);
 }
 
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:active {
+    background-color: green;
+}
+
 /* MAIN CONTAINER */
 /* Left side of the Grid */
-/* .main-container {
-    border: 1px solid red;
-} */
-
 h1 {
     font-weight: 800;
 }
