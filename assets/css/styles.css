@@ -79,12 +79,14 @@ button:hover {
 .other-news {
     margin-top: 80px;
 }
+
 .topic-images {
-    width: 100px;
+    width: 90px;
     height: 120px;
 }
 
 .content {
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -130,5 +132,9 @@ button:hover {
 @media (max-width: 768px) {
     .right-container {
         margin-top: 60px;
+    }
+
+    .other-news > div {
+        margin-bottom: 30px;
     }
 }
