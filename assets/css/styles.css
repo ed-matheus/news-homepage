@@ -22,6 +22,11 @@ body {
     border: none;
 }
 
+.navbar-toggler:focus {
+    background-color: hsl(36, 100%, 99%);
+    box-shadow: none;
+}
+
 /* MAIN CONTAINER */
 /* Left side of the Grid */
 h1 {
